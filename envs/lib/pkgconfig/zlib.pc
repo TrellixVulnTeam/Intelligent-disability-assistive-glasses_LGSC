@@ -1,0 +1,13 @@
+prefix=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

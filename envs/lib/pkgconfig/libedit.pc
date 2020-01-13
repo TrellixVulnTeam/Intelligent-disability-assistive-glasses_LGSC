@@ -1,0 +1,13 @@
+prefix=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libedit
+Description: command line editor library provides generic line editing, history, and tokenization functions.
+Version: 3.1
+Requires:
+Libs: -L${libdir} -ledit
+Libs.private: -ltinfo 
+Cflags: -I${includedir} -I${includedir}/editline
+

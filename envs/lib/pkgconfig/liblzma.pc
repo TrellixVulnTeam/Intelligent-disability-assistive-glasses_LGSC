@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs
+exec_prefix=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs
+libdir=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs/lib
+includedir=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lrt  

@@ -1,0 +1,9 @@
+prefix=/media/alex/新加卷/Match/Internet+/智能残障辅助眼镜/envs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1d
+Requires: libssl libcrypto
