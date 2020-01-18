@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b337c38-1ff9-43cb-8ac5-e9233b0b0edc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/American Sign Language Alphabet Recognition using Deep Learning /American Sign Language Alphabet Recognition using.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/American Sign Language fingerspelling recognition&#10;from video: Methods for unrestricted recognition and signer-independence/American Sign Language fingerspelling recognition.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/EXTENSION OF HIDDEN MARKOV MODEL FOR&#10;RECOGNIZING LARGE VOCABULARY OF SIGN LANGUAGE/EXTENSION OF HIDDEN MARKOV MODEL FOR.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Exploiting Recurrent Neural Networks and Leap&#10;Motion Controller for Sign Language and&#10;Semaphoric Gesture Recognition/Exploiting Recurrent Neural Networks and Leap.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Hand Gesture Detection and Conversion to Speech and Text/Hand Gesture Detection and Conversion.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/MS-ASL: A Large-Scale Data Set and&#10;Benchmark for Understanding American Sign Language/MS-ASL: A Large-Scale Data Set and.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/MULTITASK TRAINING WITH UNLABELED DATA&#10;FOR END-TO-END SIGN LANGUAGE FINGERSPELLING RECOGNITION/MULTITASK TRAINING WITH UNLABELED DATA.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Recognition of Indian Sign Language in Live Video/Recognition of Indian Sign Language in Live Video.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Robust Sign Language Recognition System Using ToF Depth Cameras/Robust Sign Language Recognition System Using.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/SF-Net: Structured Feature Network for Continuous Sign Language Recognition/SF-Net: Structured Feature Network for Continuous Sign Language Recognition.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Sign Language Lexical Recognition With Propositional Dynamic Logic/Sign Language Lexical Recognition With Propositional Dynamic.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Sign Language Recognition Analysis using  Multimodal Data/Sign Language Recognition Analysis using.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Sign Language Recognition using Temporal Classification/Sign Language Recognition using Temporal Classification.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Sign Language Recognition, Generation, and Translation:&#10;An Interdisciplinary Perspective/Sign Language Recognition, Generation, and Translation:.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/SignCol: Open-Source Software for Collecting Sign Language Gestures/SignCol: Open-Source Software for Collecting Sign.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Spatial-Temporal Graph Convolutional Networks&#10;for Sign Language Recognition/Spatial-Temporal Graph Convolutional Networks.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Using Deep Convolutional Networks for&#10;Gesture Recognition in American Sign Language/Using Deep Convolutional Networks for.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Video-based Sign Language Recognition without Temporal Segmentation/Video-based Sign Language Recognition without Temporal Segmentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation/Paper/Word-level Deep Sign Language Recognition from Video:&#10;A New Large-scale Dataset and Methods Comparison/Word-level Deep Sign Language Recognition from Video:.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/Meeting/2020-1-18第2次会议.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/Meeting/2020-1-18第2次会议.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +69,7 @@
       <workItem from="1579232411737" duration="7677000" />
       <workItem from="1579269321981" duration="4638000" />
       <workItem from="1579322274230" duration="1157000" />
-      <workItem from="1579324030143" duration="362000" />
+      <workItem from="1579324030143" duration="886000" />
     </task>
     <task id="LOCAL-00001" summary="2020-1-13">
       <created>1578906860055</created>
@@ -166,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579322442656</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2020-1-18">
+      <created>1579324645032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579324645032</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,21 +173,21 @@
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
     <state x="668" y="380" width="630" height="362" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579232758620" />
-    <state x="453" y="81" width="1060" height="961" key="CommitChangelistDialog2" timestamp="1579322440331">
+    <state x="453" y="81" width="1060" height="961" key="CommitChangelistDialog2" timestamp="1579324644012">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
-    <state x="453" y="81" width="1060" height="961" key="CommitChangelistDialog2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579322440331" />
+    <state x="453" y="81" width="1060" height="961" key="CommitChangelistDialog2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579324644012" />
     <state x="565" y="216" width="837" height="690" key="RollbackChangesDialog" timestamp="1579317570846">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
     <state x="565" y="216" width="837" height="690" key="RollbackChangesDialog/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579317570846" />
-    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2" timestamp="1579322461694">
+    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2" timestamp="1579324653464">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
-    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579322461694" />
-    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579322457246">
+    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579324653464" />
+    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579324651690">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
-    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579322457246" />
+    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579324651690" />
   </component>
 </project>
