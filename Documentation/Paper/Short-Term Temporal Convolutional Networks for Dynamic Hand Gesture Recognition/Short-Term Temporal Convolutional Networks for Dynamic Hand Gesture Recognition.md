@@ -113,7 +113,7 @@ The pipline of our method is depicted in Figure 1, and the main contribution can
 
 我们的方法的流程如图1所示，其主要贡献可总结如下：
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/figure1.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/figure1.png)
 
 **Figure 1: An overview of the proposed method.**
 **图1：建议方法的概述。**
@@ -300,7 +300,7 @@ To be specific, the details of the proposed network structure is presented in Fi
 
 具体来说，建议的网络结构的详细信息如图所示。
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/figure2.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/figure2.png)
 
 **Figure 2: The architecture of 3D-DenseNet.**
 
@@ -326,7 +326,7 @@ Thus, the input video VS is denoted as,
 
 因此，输入视频VS表示为
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/VS.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/VS.png)
 
 where v<sub>k</sub> is the k-th frame image of video sequence in the input.
 
@@ -360,7 +360,7 @@ Moreover, the temporal pooling size and stride in all the transition layers are 
 
 此外，将所有过渡层中的时间池大小和跨度设置为1，以避免短期时间信息的融合，这是与其他传统3D-CNN的主要区别[13]。
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/table1.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/table1.png)
 
 **Table 1: 3D-DenseNet architectures. **
 
@@ -386,7 +386,7 @@ Therefore, we can get the global spatio-temporal feature F<sub>k</sub> after the
 
 因此，我们可以在全局空间平均池层之后获得全局时空特征F<sub>k</sub>，
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/FK.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/FK.png)
 
 Then T short-term spatio-temporal features are cut and pooled from the global feature F<sub>k</sub>. 
 
@@ -396,7 +396,7 @@ The t-th short-term spatio-temporal feature x<sub>t</sub> is constructed as,
 
 将第t个短期时空特征x<sub>t</sub>构造为，
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/xt.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/xt.png)
 
 where ltap is local temporal average pool layer in truncated 3D-Densenet, k/T is half of temporal feature interval. 
 
@@ -445,7 +445,7 @@ The structure of the proposed modified version of the TCN model is depicted in F
 
 提出的TCN模型的修改版本的结构如图3所示。
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/figure3.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/figure3.png)
 
 **Figure 3: Architecture and architectural elements in a TCN.** 
 
@@ -475,7 +475,7 @@ The reason is that the dilated convolutions are calculated as,
 
 原因是膨胀卷积的计算公式如下：
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/yt.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/yt.png)
 
 where ∗d is the operator for dilated convolutions, d is the dilation factor and h is the filter’s impulse response. 
 
@@ -489,7 +489,7 @@ The class label o_hat attributed to the sequence is found through a fully connec
 
 可通过具有softmax激活功能的完全连接的层找到归属于序列的类标签，
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/o_hat.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/o_hat.png)
 
 where W<sub>o</sub>, b<sub>o</sub> are trainable parameters.
 
@@ -511,7 +511,7 @@ The same phenomenon occurs between the third path of the gestures ”swipe +” 
 
 当t>23时，手势“swipe+”和“swipe down”（图4（c））的第三条路径之间也会出现同样的现象。
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/figure4.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/figure4.png)
 
 **Figure 4: An example sequence from VIVA gesture and its corresponding temporal weghts from TSE-Nets.**
 
@@ -529,7 +529,7 @@ Such obtained temporal descriptor z = [z<sub>1</sub>,  z<sub>T </sub>] is a T ×
 
 这样得到的时间描述符z=[z<sub>1</sub>，z<sub>T</sub>]是T×1向量，而z的第T元素计算为，
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/zt.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/zt.png)
 
 Then another excitation operation is followed to capture the temporal dependencies, i.e. the temporal weights.
 
@@ -539,15 +539,15 @@ To fulfil this objective, we opt to employ a simple gating mechanism with the ac
 
 为了实现这一目标，我们选择使用一个简单的激活门控机制：
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/s.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/s.png)
 
 where σ refers to the sigmoid function, δ refers to the ReLU function,
 
 其中，σ是指S状函数，δ是指ReLU函数，
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/w1.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/w1.png)
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/w2.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/w2.png)
 
 and r is the size of squeeze channel.
 
@@ -557,11 +557,11 @@ The final output of the block is obtained by rescaling the transformation output
 
 块的最终输出是通过使用激活重新缩放变换输出U来获得的：
 
-![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/x~.png)
+![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/x~.png)
 
-where ![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/X~.png) and F<sub>scale</sub>(u<sub>t</sub>, s<sub>t</sub>) refers to temporal-wise multiplication between the scalar s<sub>t</sub> and the feature map u<sub>t</sub> ∈ R<sup>T</sup>.
+where ![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/X~.png) and F<sub>scale</sub>(u<sub>t</sub>, s<sub>t</sub>) refers to temporal-wise multiplication between the scalar s<sub>t</sub> and the feature map u<sub>t</sub> ∈ R<sup>T</sup>.
 
-其中![](/media/alex/新加卷/Match/Internet+/Intelligent-disability-assistive-glasses/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition/images/X~.png)和F<sub>标度</sub>（u<sub>t</sub>，s<sub>t</sub>）是指标量s<sub>t</sub>和特征映射u<sub>t</sub>之间的时间相乘。
+其中![](https://github.com/koking0/Intelligent-disability-assistive-glasses/tree/master/Documentation/Paper/Short-Term%20Temporal%20Convolutional%20Networks%20for%20Dynamic%20Hand%20Gesture%20Recognition/images/X~.png)和F<sub>标度</sub>（u<sub>t</sub>，s<sub>t</sub>）是指标量s<sub>t</sub>和特征映射u<sub>t</sub>之间的时间相乘。
 
 
 An example of the weights on different TSENet layers is illustrated in Figure5.
