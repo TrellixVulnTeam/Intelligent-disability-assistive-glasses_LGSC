@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b337c38-1ff9-43cb-8ac5-e9233b0b0edc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation/Competition_Documents/项目计划书/2019项目计划书解析.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/Competition_Documents/项目计划书/2019项目计划书解析.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation/Meeting/2020-1-18第2次会议.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/Meeting/2020-1-18第2次会议.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +32,16 @@
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Documentation/Competition_Documents" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Documentation/Paper/Trajectory-Based Recognition of Dynamic Persian Sign Language Using Hidden Markov Model" />
       <recent name="$PROJECT_DIR$/Documentation" />
       <recent name="$PROJECT_DIR$/Documentation/Paper/Short-Term Temporal Convolutional Networks for Dynamic Hand Gesture Recognition" />
       <recent name="$PROJECT_DIR$/Documentation/Competition_Documents" />
       <recent name="$PROJECT_DIR$/Meeting" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -71,7 +70,7 @@
       <workItem from="1579232411737" duration="7677000" />
       <workItem from="1579269321981" duration="4638000" />
       <workItem from="1579322274230" duration="1157000" />
-      <workItem from="1579324030143" duration="4469000" />
+      <workItem from="1579324030143" duration="5832000" />
     </task>
     <task id="LOCAL-00001" summary="2020-1-13">
       <created>1578906860055</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579324995501</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2020-1-18">
+      <created>1579330523117</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579330523117</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,17 +196,17 @@
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
     <state x="565" y="216" width="837" height="690" key="RollbackChangesDialog/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579317570846" />
-    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2" timestamp="1579324999289">
+    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2" timestamp="1579330532530">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
-    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579324999289" />
+    <state x="483" y="230" width="1000" height="663" key="Vcs.Push.Dialog.v2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579330532530" />
     <state x="712" y="459" width="553" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579328550822">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
     <state x="712" y="459" width="553" height="204" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579328550822" />
-    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579324997809">
+    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579330529853">
       <screen x="57" y="34" width="1863" height="1046" />
     </state>
-    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579324997809" />
+    <state x="567" y="45" width="840" height="1034" key="search.everywhere.popup/57.34.1863.1046/1920.0.1440.900@57.34.1863.1046" timestamp="1579330529853" />
   </component>
 </project>
